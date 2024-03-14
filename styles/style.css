@@ -118,7 +118,7 @@ body{
 }
 
 @media (max-width: 1200px) {
-    
+
     .header{
          padding: 10%;  
     }
@@ -127,6 +127,12 @@ body{
     }
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .presentacion__contenido{
+        width: auto;
     }
     
 }
